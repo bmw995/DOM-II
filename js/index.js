@@ -38,7 +38,7 @@ header.addEventListener("mouseleave", e => {
 });
 
 const letsGoText = document.querySelector('.text-content p');
-const letsGo = document.querySelector('#lets-go');
+const letsGo = document.querySelector('.intro');
 letsGo.addEventListener("drag", () => {
     letsGoText.style.border = "2px solid black";
     letsGoText.style.textAlign = "center";
